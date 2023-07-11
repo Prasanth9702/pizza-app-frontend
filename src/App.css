@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.navbar-nav .nav-item a.nav-link {
+  margin-right: 0px;
+  margin-left: 45px;
+  color: white;
+  font-size: 24px;
+}
+.navbar-nav {
+  margin-right: 0px;
+  margin-left: 35%;
+}
+.navbar a {
+  color: aliceblue;
+}
+.navbar a:hover {
+  color: rgb(15, 231, 255);
+}
+.navbar {
+  box-shadow: 0px 0px 30px rgb(0, 165, 171), 0px 0px 30px rgb(0, 165, 171),
+    0px 0px 30px rgb(0, 165, 171), 0px 0px 30px rgb(0, 165, 171),
+    0px 0px 30px rgb(0, 165, 171);
+}
+.fa-plus {
+  color: green;
+  margin: 5px;
+}
+.fa-minus {
+  color: red;
+  margin: 5px;
+}
+.fa-trash {
+  color: rgb(132, 4, 4);
+}
+.col-md-5 input {
+  margin-top: 20px;
+}
