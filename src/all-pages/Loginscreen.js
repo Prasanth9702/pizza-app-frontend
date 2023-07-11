@@ -73,7 +73,7 @@ export default function Loginscreen() {
             />
             <br />
             <p>
-              Admin : vigneshwar@gmail.com <br />
+              Admin : admin@gmail.com <br />
               password : 12345
             </p>
 
