@@ -40,13 +40,13 @@ export default function Adminscreen() {
               </Link>
             </li>
             <li>
-              <Link className="noww" to={"/admin/dresseslist"}>
-                Dresses List
+              <Link className="noww" to={"/admin/pizzalist"}>
+                pizza List
               </Link>
             </li>
             <li>
               <Link className="noww" to={"/admin/adddress"}>
-                Add Dress
+                Add pizza
               </Link>
             </li>
             <li>

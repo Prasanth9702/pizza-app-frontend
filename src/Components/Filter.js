@@ -11,20 +11,20 @@ export default function Filter() {
   return (
     <div className="container">
       <div className="row justify-content-center shadow-lg p-3 mb-5 bg-white rounded">
-        <div className="col-md-3 w-100">
+        <div className="col-md-3 w-1">
           <input
             onChange={(e) => {
               setsearchkey(e.target.value);
             }}
             value={searchkey}
             type="text"
-            className="form-control w-100 mt-2"
-            placeholder="search dresses"
+            className="form-control w-1 mt-2"
+            placeholder="search pizzas"
           />
         </div>
-        <div className="col-md-3 w-100">
+        <div className="col-md-3 w-1">
           <select
-            className="form-control w-100 mt-2"
+            className="form-control w-1 mt-2"
             value={category}
             onChange={(e) => setcategory(e.target.value)}
           >
@@ -34,9 +34,9 @@ export default function Filter() {
             
           </select>
         </div>
-        <div className="col-md-3 w-100">
+        <div className="col-md-3 w-1">
           <button
-            className="btn w-100 mt-2"
+            className="btn w-1 mt-2"
             onClick={() => {
               dispatch(filterDresses(searchkey, category));
             }}

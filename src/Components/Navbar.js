@@ -15,7 +15,7 @@ export default function Navbar() {
         <a className="navbar-brand" href="/">
           <img
             className="shopping"
-            src="https://png.pngitem.com/pimgs/s/173-1738297_shopify-logo-png-transparent-png.png"
+            src="https://cdn4.vectorstock.com/i/1000x1000/47/28/cartoon-pizza-shop-vector-35844728.jpg"
             width="100px"
             height="60px"
             style={{ marginLeft: "80px" }}
