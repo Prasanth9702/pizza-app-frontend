@@ -22,7 +22,7 @@ export default function Filter() {
             placeholder="search pizzas"
           />
         </div>
-        <div className="col-md-3 w-1">
+        <div className="col-md-2 w-1">
           <select
             className="form-control w-1 mt-2"
             value={category}
@@ -34,7 +34,7 @@ export default function Filter() {
             
           </select>
         </div>
-        <div className="col-md-3 w-1">
+        <div className="col-md-2 w-1">
           <button
             className="btn w-1 mt-2"
             onClick={() => {
