@@ -21,3 +21,6 @@ select {
   box-shadow: none !important;
   border-color: black;
 }
+img.img-fluid {
+    cursor: pointer;
+}
